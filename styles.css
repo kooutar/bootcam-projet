@@ -1,0 +1,327 @@
+/* Styles CSS */
+body {
+    display: block;
+    margin: 0;
+   
+}
+
+.container-haut {
+    
+    /*rgba(38, 185, 136, 0.742);*/
+    background-image: url("images/OIP3.jpg");
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: calc(100vh-80px);
+    overflow: hidden;
+    color: white;
+    height: 800%;
+    
+}
+.navbar {
+    font-family: "Poppins", sans-serif;
+     overflow: hidden;
+ }
+ 
+ .navbar-menu {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ .navbar-menu li {
+     display: inline;
+ }
+ 
+ .navbar-menu li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     transition: background-color 0.3s;
+    
+ }
+ 
+ .navbar-menu li a:hover {
+     background-color: #575757;
+ }
+ 
+ .navbar-menu li a i {
+     margin-right: 8px;
+ }
+    
+/*.nave{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ /* Couleur de fond de la moitié colorée */
+    
+
+  
+
+#logo  {
+    width: 200px;
+    height: 70px;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10;
+    margin: 10;
+   
+   
+}
+ul li {  
+    margin-right: 20px; /* Optionnel : espace entre les éléments */
+}
+ul li a {
+    color: white; /* Définit la couleur par défaut des liens en blanc */
+    text-decoration: none; /* Retire le soulignement des liens */
+    padding: 5px 10px; /* Ajoute un peu de padding pour l'effet de fond */
+    transition: background-color 0.3s, color 0.3s; /* Ajoute une transition pour un effet lisse */
+}
+ul li a:visited {
+    color: white; /* Assure que les liens visités restent blancs */
+}
+ul li a:hover {
+    background-color: rgba(38, 185, 136, 0.742);/* Change la couleur de fond au survol  rgba(16, 108, 78, 1); */
+    color: white; /* Garde la couleur du texte en blanc au survol */
+}
+ul li a:active {
+    color: white; /* Assure que les liens actifs restent blancs */
+}
+.dropdown{
+    position: relative;
+}
+
+.vertical-menu {
+    width: 200px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+       
+  }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;  
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .vertical-menu input[type="checkbox"] {
+    display: none;
+  }
+  
+  .vertical-menu label {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .vertical-menu label:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu input[type="checkbox"]:checked ~ .submenu {
+    display: block;
+  }
+  
+  .submenu {
+    display: none;
+  }
+#p1{
+   
+    margin-left: 65%;
+    margin-top:20%;
+    font-family: 'Crimson Pro', serif;
+    font-size: 48px;
+}
+
+
+.img{
+   position: absolute;
+    width: 200px;
+    height: 300px;
+    margin-left: 1000px;
+    margin-bottom: 200px;
+}
+
+/*style de partie Mauvaises Herbes **/
+
+.container-mauvaises-herbes{
+    
+    background-color: aliceblue;
+    position: absolute;
+    top: 820px;
+    height: 900px;
+    width: 100%;
+
+}
+h4{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+.rectange{
+position: relative;
+   height: 300px;
+   width: 500px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+   margin-left: 50px;
+   padding: 10px;
+}
+
+  
+.parg1{
+    position: absolute;     
+}
+.img-mauviase-herbre{
+    width: 500px;
+    height: 200;
+    justify-items: center;
+}
+/*.sous-rect1{
+   position: absolute;
+    height: 100px;
+   width: 600px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  
+   left: 600px;
+   bottom: 730px;
+}
+.sous-rect1::after {
+    content: "";
+    display: block;
+    clear: both;
+    
+  }
+  .sous-rect1 h2 {
+    margin-bottom: 5px;
+  }
+  
+
+.img-Mauvaises-herbes-annuelles
+{
+ /*position: absolute;
+ width: 100px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 40%;
+  float: right;
+  shape-outside: margin-box;
+  margin: 0 10px 5px 0;
+  /*left: 500px;
+  bottom: 0px;
+
+}*/
+/*.sous-rect1 {
+    width: 600px;
+    height: 200px;
+    background: #f1f1f1;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  }
+  
+  .sous-rect1::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .sous-rect1 h2 {
+    margin-bottom: 10px;
+  }
+  .sous-rect1 p {
+    line-height: 1.4;
+  }
+  .img-Mauvaises-herbes-annuelles {
+    
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: right;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+  }
+.sous-rect2{
+    position: absolute;
+    height: 100px;
+   width: 600px;
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+   left: 600px;
+   bottom: 620px;
+    
+}
+.sous-rect3{
+    position: absolute;
+    height: 100px;
+   width: 600px;
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+   left: 600px;
+   bottom: 510px;
+    
+}*/
+
+.sous-rect1{
+    position: relative;
+    height: 200px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    left: 600px;
+    bottom: 342px;
+ }
+
+ .sous-rect1 p{
+    width: 70%;
+    position: absolute;
+    margin-left: 10px;
+    line-height: 1.4;
+ }
+ .sous-rect1 h2{
+    margin-left: 10px;
+ }
+
+ .img-Mauvaises-herbes-annuelles{
+    position: absolute;
+    border-radius: 60%;
+    height: 120px;
+    width: 120px;
+    left: 75%;
+ }
+
+ 
+
+ 
+
+
+
