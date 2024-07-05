@@ -177,7 +177,7 @@ ul li a:active {
     background-color: aliceblue;
     position: absolute;
     top: 820px;
-    height: 900px;
+    height: 1000px;
     width: 100%;
    
 
@@ -190,7 +190,7 @@ h4{
 }
 
 .rectange{
-position: relative;
+   position: relative;
    height: 300px;
    width: 40%;
    border-radius: 10px;
@@ -206,6 +206,7 @@ position: relative;
 .img-mauviase-herbre{
     width: 100%;
     height: 200px;
+    margin-top: 4%;
     justify-items: center;
 }
 /*.sous-rect1{
